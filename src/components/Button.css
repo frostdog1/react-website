@@ -1,0 +1,24 @@
+:root {
+	--primary: #12558f;
+	--secondary: #12558f;
+}
+
+.btnNav {
+	padding: 8px 20px;
+	border-radius: 4px;
+	font-weight: 400;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	background-color: var(--primary);
+}
+
+.btnNav:hover {
+	padding: 6px 20px;
+	transition: all 0.3s ease-in-out;
+	background-color: transparent;
+	color: var(--secondary);
+	border: solid var(--primary) 2px;
+}

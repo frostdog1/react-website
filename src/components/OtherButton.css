@@ -1,0 +1,18 @@
+.btn {
+	padding: 8px 20px;
+	border-radius: 4px;
+	font-weight: 400;
+	border: none;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	background-color: orange;
+}
+
+.btn:hover {
+	padding: 8px 20px;
+	border: none;
+	transition: all 0.1s ease-in-out;
+	background-color: rgb(236, 157, 9);
+	color: rgb(255, 255, 255);
+}

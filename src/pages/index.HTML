@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width"
+		/>
+		<title>Paco's Taco's Calculator</title>
+		<link
+			href="style.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-------------- Remove buttons ------------------->
+			<div class="button-container1">
+				<a
+					onclick="ticketClickMin()"
+					class="button-link"
+					><div
+						class="removeButton"
+						id="removeTickets"
+					>
+						<p>Remove tickets</p>
+					</div></a
+				>
+
+				<a
+					onclick="lTicketClickMin()"
+					class="button-link"
+					><div
+						class="removeButton"
+						id="lticket"
+					>
+						<p
+							class="buttonText"
+							id="lcounter"
+						>
+							Remove<br />long distance
+						</p>
+					</div></a
+				>
+			</div>
+			<!-------------- Add buttons ------------------->
+			<div class="button-container">
+				<a
+					onclick="ticketClick()"
+					class="button-link"
+					><div
+						class="button"
+						id="tickets"
+					>
+						<p id="counter">0</p>
+					</div></a
+				>
+
+				<a
+					onclick="lTicketClick()"
+					class="button-link"
+					><div
+						class="button"
+						id="lTicket"
+					>
+						<p id="lCounter">0</p>
+					</div></a
+				>
+			</div>
+			<!-------------- Input Boxes ------------------->
+			<div class="grid-container">
+				<div class="input-container">
+					<input
+						class="user-input"
+						id="tips"
+						placeholder="TIPS"
+					/>
+
+					<input
+						class="user-input"
+						id="hours"
+						placeholder="HOURS"
+					/>
+
+					<input
+						class="user-input"
+						id="hours"
+						placeholder="CASHERS"
+					/>
+				</div>
+
+				<!-------------- Menu dropdown ------------------->
+				<div class="option-container">
+					<!-- dropdown -->
+					<div class="menu-container">
+						<select class="menu">
+							<option
+								class="menu-item"
+								id="burger"
+							>
+								Plain Burger £7.99
+							</option>
+							<option
+								class="menu-item"
+								id="burgerRodeo"
+							>
+								Rodeo Burger £9.99
+							</option>
+							<option
+								class="menu-item"
+								id="chips"
+							>
+								Chips £2.00
+							</option>
+						</select>
+					</div>
+
+					<!-------------- Calculate button ------------------->
+					<a
+						onclick="sayMyName()"
+						class="calc-btn-link"
+						><div
+							class="calc-btn"
+							id="calculate"
+						>
+							CALCULATE
+						</div></a
+					>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+		<script
+			src="https://replit.com/@30052781/PACOS#script.js"
+			theme="blue"
+			defer
+		></script>
+	</body>
+</html>
