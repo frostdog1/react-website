@@ -79,8 +79,6 @@ function App() {
 	// 		/>
 	// 	</Routes>
 	// </Router>
-
-	// https://www.youtube.com/watch?v=T2MhVxJxsL0 43:19
 }
 
 export default App;
